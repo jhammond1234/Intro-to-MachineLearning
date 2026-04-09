@@ -1,5 +1,6 @@
 name: torch310env
 channels:
+  - pytorch
   - conda-forge
 dependencies:
   - python=3.10
@@ -15,4 +16,4 @@ dependencies:
   - matplotlib
   - scikit-learn
   - conda
-  - pytorch-cuda=12.1
+  
